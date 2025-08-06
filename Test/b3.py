@@ -11,3 +11,14 @@ for i in range(n):
 
 print(a)
 
+b = []
+for i in range(n):
+        print('b(', i, '): ',sep= " ", end= ' ')
+        x = int(input())
+        b.append(x)
+
+print(b)
+
+dem = 0
+for i in range(n):
+       if a[i] != b[i]: dem += 1
